@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    
+    inteiro numero
+
+    enquanto (verdadeiro) {
+    escreva ("\nDigite um número: ")
+    leia (numero)
+
+    se (numero % 2 == 0){
+      escreva ("Esse número é par")
+    }
+    senao {
+    escreva ("Esse númeor é ímpar")
+    }
+    
+    } 
+  }
+}
